@@ -1,0 +1,7 @@
+List of available commands:
+add: Adds 2 numbers.
+divfloat: Divides 2 numbers and returns a quotient with a decimal.
+divint: Divides 2 numbers and returns an integer quotient.
+multiply: Multiplies 2 numbers.
+print: Print a string that you enter.
+subtract: Subtracts 2 numbers.
