@@ -1,5 +1,6 @@
-from commands.printcommand import printcmd
+from commands.printcommands import *
 from commands.math import *
+from commands.help import *
 
 command = ""
 
@@ -18,7 +19,11 @@ while True:
             divide_float(int(input("Enter a number: ")), int(input("Enter another number: ")))
         if command == "divint":
             divide_int(int(input("Enter a number: ")), int(input("Enter another number: ")))
-
+        if command == "help":
+            help_command()
+        if command == "write":
+            writecmd()
+            
     except ValueError:
         print("Please enter a valid value.")
     except ZeroDivisionError:
